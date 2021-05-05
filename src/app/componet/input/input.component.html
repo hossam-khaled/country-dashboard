@@ -1,0 +1,3 @@
+<input type="text" placeholder="Search Country" [formControl]="txtInput" (keydown.enter)= "search()"
+[class.valid-input] = "txtInput.invalid"
+>
